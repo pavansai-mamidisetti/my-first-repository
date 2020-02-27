@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Stage 2') {
             steps {
-                sh """
+                sh  """
                       cd /home/ec2-user/node1-slave/workspace/slave-test/
                       javac Pavan.java
                       java Pavan """
